@@ -1,0 +1,18 @@
+* Goal
+
+Creating deterministic browser, that is to say, a browser that won't reveal what type it is (FF, Chrome, etc.) or what operating system it is running on when it is fingerprinted.
+
+* Fingerprint techniques
+
+- Use different compitability of different type of browsers in different OS to identify current browser and OS that the program is working on
+- Use the execute time of pieces of code to identify the type of browser.
+
+* Defence method
+
+We only consider second type of fingerprint. Browsers can be splited into several modules. Each module will have its "sub-clock". The execute time of code in a browser can be calculated using all these "sub-clock"s. We want to fix the execute time of code in different browsers by fixing each "sub-clock".
+
+** JavaScript engine
+Take JS engine as a example, each browser, should, theoretically, execute a particular JS program in it's own way. Therefore, by running piece of code on an unknown browser and seeing how long it takes to execute, one can determine the identity of the browser. The method of fixing "sub-clock" in JS Engine is to add in a counter. We will be able to control when that counter increments, and that counter will appear to the outside world as the "clock" for the system. Thus, whenever the clock is looked at, it will show the amount of time that we want it to, not the amount of time that has actually elapsed.
+
+** DOM
+*TBD*
