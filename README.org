@@ -20,3 +20,6 @@ Take JS engine as a example, each browser, should, theoretically, execute a part
 * useful links 
 - Firefox code structure 
 https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
+
+- How to compile Firefox 
+https://developer.mozilla.org/en-US/docs/Simple_Firefox_build
