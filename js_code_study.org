@@ -13,3 +13,6 @@ register all js op code
 * js/src/jsopcode.cpp
 
 handle js op code
+
+* js/src/vm/Interpreter.cpp
+1689:  INTERPRETER_LOOP() has counter
