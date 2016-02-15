@@ -23,3 +23,4 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Dir
 
 - How to compile Firefox 
 https://developer.mozilla.org/en-US/docs/Simple_Firefox_build
+For me, use start-shell-msvc2015.bat from mozilla-build to build SpiderMonkey
