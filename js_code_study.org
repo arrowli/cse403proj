@@ -5,3 +5,7 @@ include all exported API. JS_Now(void) will return current time.
 * js/src/vm/Time.h
 
 PRMJ_Now() wraps time function for JS use.
+
+* js/src/vm/Opcodes.h
+
+register all js op code
