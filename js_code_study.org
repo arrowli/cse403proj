@@ -16,3 +16,10 @@ handle js op code
 
 * js/src/vm/Interpreter.cpp
 1689:  INTERPRETER_LOOP() has counter
+
+* js/src/frontend/BytecodeCompiler.cpp
+
+- BytecodeCompiler::compileScript compiles source code into JSScript type(js/src/jsscript.h)
+- prepareAndEmitTree
+- emitTree
+- emit* function set jsbytecodes
