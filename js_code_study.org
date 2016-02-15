@@ -9,3 +9,7 @@ PRMJ_Now() wraps time function for JS use.
 * js/src/vm/Opcodes.h
 
 register all js op code
+
+* js/src/jsopcode.cpp
+
+handle js op code
