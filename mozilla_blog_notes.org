@@ -1,0 +1,8 @@
+* IonMonkey
+
+IonMonkey is Firefox's JavaScript JIT. It "provides a brand new architecture that allows us to do just that. It essentially has three steps:
+
+1. Translate JavaScript to an intermediate representation (IR).
+2. Run various algorithms to optimize the IR.
+3. Translate the final IR to machine code."
+
