@@ -27,4 +27,7 @@ https://developer.mozilla.org/en-US/docs/Simple_Firefox_build
 - Mozilla JS Blog
 https://blog.mozilla.org/javascript/
 
+- Howto for mach
+http://www.codefirefox.com/cheatsheet
+
 For me, use start-shell-msvc2015.bat from mozilla-build to build SpiderMonkey
